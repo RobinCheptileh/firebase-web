@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+
+<form id="sign-up-form">
+    <input type="email" name="email" id="email" placeholder="Email" required><br>
+    <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+    <button type="submit">Sign Up</button>
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase-firestore.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBEmXrROJyuAR7wCH2rAWkeZVwb6-zKFp0",
+        authDomain: "myhustle-308d7.firebaseapp.com",
+        databaseURL: "https://myhustle-308d7.firebaseio.com",
+        projectId: "myhustle-308d7",
+        storageBucket: "myhustle-308d7.appspot.com",
+        messagingSenderId: "1079149898906"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="app.js"></script>
+</body>
+</html>
