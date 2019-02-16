@@ -1,0 +1,27 @@
+{
+  "name": "firebase-web",
+  "version": "1.0.0",
+  "description": "Firebase for web meet up",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^5.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robincheptileh/firebase-web.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Web"
+  ],
+  "author": "Robin Cheptileh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robincheptileh/firebase-web/issues"
+  },
+  "homepage": "https://github.com/robincheptileh/firebase-web#readme"
+}
